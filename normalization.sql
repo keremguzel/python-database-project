@@ -1,0 +1,5 @@
+Select STUDENT.StudentID, COURSE_GRADE.Midterm, COURSE_GRADE.Final from STUDENT inner join COURSE_GRADE on STUDENT.StudentId=COURSE_GRADE.StudentID;
+
+Select STUDENT.StudentID, SUBMISSION.AssignmentID from STUDENT inner join SUBMISSION on STUDENT.StudentId=SUBMISSION.StudentID;
+
+Select STUDENT.StudentID, COURSE_GRADE.Midterm, COURSE_GRADE.Final, COURSE_GRADE.Lab from STUDENT inner join COURSE_GRADE on STUDENT.StudentId=COURSE_GRADE.StudentID;

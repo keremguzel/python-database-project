@@ -1,0 +1,11 @@
+1_) Select STUDENT.StudentID, COURSE_GRADE.Midterm, COURSE_GRADE.Final from STUDENT inner join COURSE_GRADE on STUDENT.StudentId=COURSE_GRADE.StudentID;
+
+2_) Select STUDENT.StudentID, SUBMISSION.AssignmentID from STUDENT inner join SUBMISSION on STUDENT.StudentId=SUBMISSION.StudentID;
+
+3_) Select STUDENT.StudentID, COURSE_GRADE.Midterm, COURSE_GRADE.Final, COURSE_GRADE.Lab from STUDENT inner join COURSE_GRADE on STUDENT.StudentId=COURSE_GRADE.StudentID;
+
+4_)  select * from COURSE_GRADE order by Midterm,Final,Lab;
+
+5_)  select StudentID,Midterm from COURSE_GRADE order by Midterm;
+
+6_)  select StudentID, Midterm,Final from COURSE_GRADE where StudentID=114200044;
